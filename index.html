@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AulaPudu 2.0 - Plataforma educativa modular con interacción en vivo">
+  <title>AulaPudu 2.0</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Design System CSS -->
+  <link rel="stylesheet" href="/public/css/design-system.css">
+  <link rel="stylesheet" href="/public/css/pages.css">
+  <link rel="stylesheet" href="/public/css/dashboard.css">
+  
+  <!-- Supabase Client -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <!-- QR Code Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loading-content">
+      <div class="loading-spinner"></div>
+      <h2>Iniciando AulaPudu 2.0...</h2>
+    </div>
+  </div>
+
+  <!-- App Container -->
+  <div id="app"></div>
+
+  <!-- Notifications Container -->
+  <div id="notifications" class="notification-container"></div>
+
+  <!-- Modal Root -->
+  <div id="modal-root"></div>
+
+  <!-- Core Application -->
+  <script type="module" src="/src/app.js"></script>
+</body>
+</html>
