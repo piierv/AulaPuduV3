@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 const items = [
   { to: "/dashboard", label: "Resumen", icon: "📊" },
   { to: "/dashboard/presentations", label: "Presentaciones", icon: "📑" },
+    { to: "/dashboard/crearpresentation",label:"Crear presentaciones", icon: "✏️"},
   { to: "/dashboard/live", label: "Sesión en Vivo", icon: "🔴" },
   { to: "/dashboard/questions", label: "Preguntas", icon: "❓" },
   { to: "/dashboard/audience", label: "Gestión de Espectadores", icon: "👥" },

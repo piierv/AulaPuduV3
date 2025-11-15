@@ -10,6 +10,7 @@ import RegisterPresenter from "./pages/RegisterPresenter.jsx";
 
 import Overview from "./pages/dashboard/Overview.jsx";
 import Presentations from "./pages/dashboard/Presentations.jsx";
+import PresentationEditor from "./pages/Presentation/PresentationEditor.jsx";
 import LiveSession from "./pages/dashboard/LiveSession.jsx";
 import Questions from "./pages/dashboard/Questions.jsx";
 import Audience from "./pages/dashboard/Audience.jsx";
@@ -55,7 +56,8 @@ export default function App() {
       >
         <Route index element={<Overview />} />
         <Route path="presentations" element={<Presentations />} />
-        <Route path="live" element={<LiveSession />} />
+           <Route path="crearpresentation" element={<PresentationEditor/>}/>
+       <Route path="live" element={<LiveSession />} />
         <Route path="questions" element={<Questions />} />
         <Route path="audience" element={<Audience />} />
         <Route path="materials" element={<Materials />} />
