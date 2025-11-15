@@ -25,8 +25,6 @@ export default function Overview() {
         {/* Tarjeta 2 – Reemplazada por el sistema real de QR */}
         <LiveSessionCard />
 
-        {/* Tarjeta 3 – Finalizar sesión */}
-      
       </div>
     </div>
   );
