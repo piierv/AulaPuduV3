@@ -25,22 +25,6 @@ export default function Overview() {
         {/* Tarjeta 2 – Reemplazada por el sistema real de QR */}
         <LiveSessionCard />
 
-        {/* Tarjeta 3 – Finalizar sesión */}
-        <Card
-          title="Finalizar Sesión Globalmente"
-          accent="warning"
-          footer={
-            <button className="ap-btn ap-btn-small ap-btn-danger">
-              Finalizar y Borrar Sesión
-            </button>
-          }
-        >
-          <p>
-            Elimina permanentemente la sesión de la base de datos y desconecta a
-            todos los espectadores.
-          </p>
-        </Card>
-
       </div>
     </div>
   );
